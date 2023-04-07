@@ -29,9 +29,10 @@
 </head>
 <body class="container">
     <div class="row section">
-        <h5 class="white-text">Peticion de cambio</h5><br><br>
+        <h5 class="white-text">Peticion de cambio</h5><br>
 
-        <div class="input-field"></div>
+        <div class="input-field">
+        </div>
 
         <div class="col s12 m12 l6">
 
@@ -42,8 +43,7 @@
             <div class="input-field">
                 <label for="P4">Solicitante del cambio:</label>
                 <input type="text" name="SolicitanteCambio" id="SolicitanteCambio" class="white-text"><br>
-            </div>
-            
+            </div>            
             <div class="input-field">
              <label for="P5">Cambio Solicitado:</label>
                 <input type="text" name="P5" id="P5" class="white-text"><br><br><br><br><br>
@@ -53,7 +53,7 @@
                 <input type="text" name="cambioSolicitado" id="cambioSolicitado" class="white-text"><br>
             </div>
             <div class="input-field">
-             <label for="">Componentes Afectados:</label>
+                <label for="">Componentes Afectados:</label>
                 <input type="text" name="componentesAfectados" id="componentesAfectados" class="white-text"><br><br><br><br>
             </div>
             <div class="input-field">
@@ -64,59 +64,61 @@
         
         <div class="col s12 m12 l6">
             <div class="input-field">
-            <label for="L">Numero:</label>
-            <input type="number" name="numero" id="numero" class="white-text"><br>
+                <label for="L">Numero:</label>
+                <input type="number" name="numero" id="numero" class="white-text"><br>
             </div>
-            <div class="input-field">
+
             <label for="P8">Fecha:</label>
             <input type="date" name="fecha" id="fecha" class="white-text"><br><br><br><br><br><br><br><br>
-            </div>
-            <div class="input-field">
+            
             <label for="">Fecha de analisis:</label>
-            <input type="date" name="fechaAnalisis" id="fechaAnalisis" class="white-text"><br>
-            </div>
+            <input type="date" name="fechaAnalisis" id="fechaAnalisis" class="white-text"><br>            
         </div>   
         
     </div>
     <div class="input-field">
-    <label for="">Valoracion del cambio:</label>
-    <input type="text" name="valoracionCambio" id="valoracionCambio" class="white-text"><br>
+        <label for="">Valoracion del cambio:</label>
+        <input type="text" name="valoracionCambio" id="valoracionCambio" class="white-text"><br>
     </div>
-    <div class="row section">
-        
-        <div class="col s12 m12 l6">
-            
-            <label for="P7">Prioridad del cambio:</label>
-            <input type="text" name="prioridadCambio" id="prioridadCambio" class="white-text"><br>
-            
-            <label for="">Implementacion del cambio:</label>
-            <input type="text" name="implementacionCambio" id="implementacionCambio" class="white-text"><br>
-            
-            <label for="">esfuerzo estimado:</label>
-            <input type="date" name="esfuerzoEstimado" id="esfuerzoEstimado" class="white-text"><br>
-           
-            <label for="">Fecha para equipo SGA app:</label>
-            <input type="date" name="fechaEquipoSGA" id="fechaEquipoSGA" class="white-text"><br>
-            
-            <label for="">Decision:</label>
-            <input type="text" name="decision" id="decision" class="white-text"><br>
 
-            <label for="P7">Implementacion del cambio:</label>
-            <input type="text" name="implementacionCambio" id="implementacionCambio" class="white-text"><br>
+    <div class="row section">        
+        <div class="col s12 m12 l6">            
+            <div class="input-field">
+                <label for="P7">Prioridad del cambio:</label>
+                <input type="text" name="prioridadCambio" id="prioridadCambio" class="white-text"><br>
+            </div>
+            <div class="input-field">
+                <label for="">Implementacion del cambio:</label>
+                <input type="text" name="implementacionCambio" id="implementacionCambio" class="white-text"><br>
+            </div>               
+                <label for="">esfuerzo estimado:</label>
+                <input type="date" name="esfuerzoEstimado" id="esfuerzoEstimado" class="white-text"><br>
             
-            <label for="">Fecha de envio a QA:</label>
-            <input type="text" name="fechaEnvioQA" id="fechaEnvioQA" class="white-text"><br>
+                <label for="">Fecha para equipo SGA app:</label>
+                <input type="date" name="fechaEquipoSGA" id="fechaEquipoSGA" class="white-text"><br>
             
-            <label for="">Fecha de envio a CM:</label>
-            <input type="date" name="fechaEnvioCM" id="fechaEnvioCM" class="white-text"><br>
-           
-            <label for="">Comentarios</label>
-            <input type="text" name="comentarios" id="comentarios" class="white-text"><br>
+            <div class="input-field">
+                <label for="">Decision:</label>
+                <input type="text" name="decision" id="decision" class="white-text"><br>
+            </div>
+            <div class="input-field">
+                <label for="P7">Implementacion del cambio:</label>
+                <input type="text" name="implementacionCambio" id="implementacionCambio" class="white-text"><br>
+            </div>
+            <div class="input-field">
+                <label for="">Fecha de envio a QA:</label>
+                <input type="text" name="fechaEnvioQA" id="fechaEnvioQA" class="white-text"><br>
+            </div>
+                <label for="">Fecha de envio a CM:</label>
+                <input type="date" name="fechaEnvioCM" id="fechaEnvioCM" class="white-text"><br>
+            <div class="input-field">
+                <label for="">Comentarios</label>
+                <input type="text" name="comentarios" id="comentarios" class="white-text"><br>
+            </div>
         </div>
 
             
         <div class="col s12 m12 l6">
-
             <label for="">Fecha de decision CCB:</label>
             <input type="date" name="fechaDecisionCCB" id="fechaDecisionCCB" class="white-text"><br>
         
@@ -128,35 +130,7 @@
         </div>
     </div>
 
-    <script src="/calcular.js"></script>
-
-    <script >
-        function calcular(){
-            var P1 = document.getElementById('P1').value;
-            var P2 = document.getElementById('P2').value;
-            var P3 = document.getElementById('P3').value;
-            var P4 = document.getElementById('P4').value;
-            var P5 = document.getElementById('P5').value;
-            var P6 = document.getElementById('P6').value;
-            var P7 = document.getElementById('P7').value;
-            var P8 = document.getElementById('P8').value;
-            var P9 = 1;
-            var L = document.getElementById('L').value;
-        
-            var costo_mantenimiento = L*(P3-(P1+P2));
-            var costo_Reingenieria = P6-(P4+P3)*(L-P8)-(P7*P9)
-            var costo_beneficio = costo_Reingenieria-costo_mantenimiento;
-        
-            document.getElementById('costo_mantenimiento').innerHTML="costo_mantenimiento = "+costo_mantenimiento;
-            document.getElementById('costo_reingenieria').innerHTML="costo_reingenieria = "+costo_Reingenieria;
-            document.getElementById('costo_beneficio').innerHTML="costo_beneficio = "+costo_beneficio;
-        
-            // console.log("costo_mantenimiento: ",costo_mantenimiento," cosot_Reingenieria: ",cosot_Reingenieria)
-            // console.log("costo_beneficio: ",costo_beneficio)
-        }
-        
-        
-    </script>
+    
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script> 
     
